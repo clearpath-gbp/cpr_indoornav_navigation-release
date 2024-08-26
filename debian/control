@@ -1,0 +1,12 @@
+Source: ros-noetic-cpr-indoornav-navigation
+Section: misc
+Priority: optional
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), python3-requests, ros-noetic-actionlib, ros-noetic-catkin, ros-noetic-cpr-indoornav-base, ros-noetic-cpr-indoornav-navigation-msgs, ros-noetic-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cpr-indoornav-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-requests, ros-noetic-actionlib, ros-noetic-cpr-indoornav-base, ros-noetic-cpr-indoornav-navigation-msgs, ros-noetic-rospy
+Description: The cpr_indoornav_navigation package
