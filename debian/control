@@ -1,0 +1,12 @@
+Source: ros-noetic-cpr-indoornav-navigation-msgs
+Section: misc
+Priority: optional
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cpr-indoornav-navigation-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-actionlib-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: The cpr_indoornav_navigation_msgs package
