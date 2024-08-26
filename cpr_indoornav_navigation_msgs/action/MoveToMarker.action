@@ -1,5 +1,0 @@
-cpr_indoornav_navigation_msgs/Marker destination
----
-bool reached_goal
----
-bool is_driving

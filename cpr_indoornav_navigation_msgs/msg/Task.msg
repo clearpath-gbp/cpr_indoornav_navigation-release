@@ -1,3 +1,0 @@
-cpr_indoornav_navigation_msgs/Place place
-string task_type
-string description
